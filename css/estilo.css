@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    width: 75%;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+
+aside{
+    padding: 15px;
+    width: 20%;
+    background-color: lightblue;
+}
+img{
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+
+main{
+    background-color: #ffeb99;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin: 10px auto auto auto;
+}
+main section h3{
+    padding-left: 5px;
+}
+main p{
+    padding-left: 15px;
+}
+
+.circle{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+section{
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    height: 30px;
+    clear: both;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 10px auto auto;
+}
