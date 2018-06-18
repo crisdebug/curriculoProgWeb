@@ -18,6 +18,8 @@ aside{
     padding: 15px;
     width: 20%;
     background-color: lightblue;
+    height: 500px;
+    margin: auto auto 10px auto;
 }
 img{
     border-radius: 10px;
@@ -37,9 +39,9 @@ img{
 main{
     background-color: #ffeb99;
     width: 75%;
-    margin: 0 auto;
     border-radius: 5px;
-    margin: 10px auto 10px auto;    
+    margin: auto auto 10px auto;    
+    height: 500px;
 }
 main section h3{
     padding-left: 5px;
@@ -80,4 +82,18 @@ footer{
     margin-left: auto;
     margin-right: auto;
 
+}
+label{
+    padding: 5px;
+
+}
+input{
+    margin: 5px;
+}
+textarea{
+    margin: 5px;
+}
+
+h2{
+    text-align: center;
 }

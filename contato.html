@@ -12,47 +12,52 @@
         <p class="esquerda">Samuel Gonçalves Martins</p>
         <p class="direita">samuel.ubuntu@gmail.com</p>
     </header>
-    <aside class="esquerda">
-        <img class="circle" src="img/icone.jpg" alt="icone">
-        <p>
-            <strong>Nacionalidade:</strong> Brasileiro</p>
-        <p>
-            <strong>Telefone:</strong> (89) 9 9999-9999</p>
-        <p>
-            <strong>Sexo: </strong>Masculino</p>
-        <p>
-            <strong>Idade: </strong> 16</p>
-        <p>
-            <strong>Endereço: </strong> Rua dos Bobos, número 0, Bairro tal, Picos-PI</p>
-    </aside>
-    <main class="direita">
-        <section>
-            <h3>Objetivo</h5>
-                <p>Alguma coisa...</p>
-        </section>
-        <section>
-            <h3>Experiência</h3>
-            <ol>
-                <li>Alguma coisa...</li>
-                <li>Outra coisa...</li>
-                <li>Mais outra coisa...</li>
-            </ol>
-        </section>
-        <section>
-            <h3>Habilidades</h3>
-            <p>Linguagens: Java, Python</p>
-            <p>Frameworks: Django</p>
-        </section>
-        <section>
-            <h3>Formação</h3>
-            <p>IFPI</p>
-            <ul>
-                <li>Uma coisa...</li>
-                <li>Outra coisa...</li>
-                <li>Mais outra coisa...</li>
-            </ul>
-        </section>
-    </main>
+    <div class="col-container">
+        <div class="col">
+            <aside class="esquerda">
+                <img class="circle" src="img/icone.jpg" alt="icone">
+                <p>
+                    <strong>Nacionalidade:</strong> Brasileiro</p>
+                <p>
+                    <strong>Telefone:</strong> (89) 9 9999-9999</p>
+                <p>
+                    <strong>Sexo: </strong>Masculino</p>
+                <p>
+                    <strong>Idade: </strong> 16</p>
+                <p>
+                    <strong>Endereço: </strong> Rua dos Bobos, número 0, Bairro tal, Picos-PI</p>
+            </aside>
+        </div>
+        <div class="col">
+            <main class="direita">
+                <h2>Contato</h2>
+                <form action="/processar" method="post">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" />
+                    <br/>
+
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" />
+                    <br/>
+
+                    <label for="selecionar">Selecione: </label>
+                    <select name="selecionar">
+                        <option>Selecionar</option>
+                        <option>Ajuda</option>
+                        <option>Proposta</option>
+                        <option>Dúvida</option>
+                    </select>
+                    <br/>
+
+                    <label for="mensagem">Mensagem: </label>
+                    <br/>
+                    <textarea></textarea>
+                    <br/>
+                    <input type="submit" value="Enviar">
+                </form>
+            </main>
+        </div>
+    </div>
     <footer>IFPI - Pantanal, Picos - PI</footer>
 </body>
 
